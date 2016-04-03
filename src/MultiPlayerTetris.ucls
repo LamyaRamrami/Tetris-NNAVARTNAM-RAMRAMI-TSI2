@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.9" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="tetris_Server.Server_Administration" project="ESIEATetris_4A" 
+    file="/ESIEATetris_4A/src/tetris_Server/Server_Administration.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="369" width="152" x="1383" y="1374"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="2" language="java" name="server_Commands.Server_Command" project="ESIEATetris_4A" 
+    file="/ESIEATetris_4A/src/server_Commands/Server_Command.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="189" x="690" y="1783"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <package id="3" language="java" name="tetriminos" project="ESIEATetris_4A" file="/ESIEATetris_4A/src/tetriminos" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="168" y="-51"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="4" language="java" name="tetriminos.J_Polyominos" project="ESIEATetris_4A" 
+    file="/ESIEATetris_4A/src/tetriminos/J_Polyominos.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="204" x="1084" y="2228"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="5" language="java" name="tetris_Server" project="ESIEATetris_4A" file="/ESIEATetris_4A/src/tetris_Server" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="309" y="-51"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="6" language="java" name="client_Commands.Client_gameOverCommand" project="ESIEATetris_4A" 
+    file="/ESIEATetris_4A/src/client_Commands/Client_gameOverCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="180" x="1306" y="-51"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="client_Commands.Client_getStoneCommand" project="ESIEATetris_4A" 
+    file="/ESIEATetris_4A/src/client_Commands/Client_getStoneCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="172" x="1526" y="-51"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="8" language="java" name="tetris_Client" project="ESIEATetris_4A" file="/ESIEATetris_4A/src/tetris_Client" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="450" y="-51"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="9" language="java" name="tetris_GUI" project="ESIEATetris_4A" file="/ESIEATetris_4A/src/tetris_GUI" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="101" x="591" y="-51"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="10" language="java" name="tetris_GUI.Play_Ground_Panel" project="ESIEATetris_4A" 
+    file="/ESIEATetris_4A/src/tetris_GUI/Play_Ground_Panel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="265" x="1671" y="1037"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="tetris_Server.Server_TimerTask_Sync" project="ESIEATetris_4A" 
+    file="/ESIEATetris_4A/src/tetris_Server/Server_TimerTask_Sync.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="164" x="1383" y="1783"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="tetris_GUI.ClientSide_GUI" project="ESIEATetris_4A" 
+    file="/ESIEATetris_4A/src/tetris_GUI/ClientSide_GUI.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="585" width="194" x="1661" y="412"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="tetriminos.S_Skew_Polyominos" project="ESIEATetris_4A" 
+    file="/ESIEATetris_4A/src/tetriminos/S_Skew_Polyominos.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="204" x="1328" y="2228"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="tetris_Client.Server_to_Client" project="ESIEATetris_4A" 
+    file="/ESIEATetris_4A/src/tetris_Client/Server_to_Client.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="282" x="1008" y="1037"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="tetriminos.Z_Skew_Polyominos" project="ESIEATetris_4A" 
+    file="/ESIEATetris_4A/src/tetriminos/Z_Skew_Polyominos.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="204" x="1572" y="2228"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="tetris_Client.Tetris_Client" project="ESIEATetris_4A" 
+    file="/ESIEATetris_4A/src/tetris_Client/Tetris_Client.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="387" x="1008" y="412"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="tetriminos.I_Straight_Polyomino" project="ESIEATetris_4A" 
+    file="/ESIEATetris_4A/src/tetriminos/I_Straight_Polyomino.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="204" x="1816" y="2228"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="18" language="java" name="client_Commands.Client_Command" project="ESIEATetris_4A" 
+    file="/ESIEATetris_4A/src/client_Commands/Client_Command.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="154" x="1435" y="412"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="19" language="java" name="tetriminos.L_Polyominos" project="ESIEATetris_4A" 
+    file="/ESIEATetris_4A/src/tetriminos/L_Polyominos.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="204" x="2060" y="2228"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="tetriminos.Seven_Tetriminos_Stone" project="ESIEATetris_4A" 
+    file="/ESIEATetris_4A/src/tetriminos/Seven_Tetriminos_Stone.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="405" width="214" x="1816" y="1783"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="tetriminos.T_Polyomino" project="ESIEATetris_4A" 
+    file="/ESIEATetris_4A/src/tetriminos/T_Polyomino.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="204" x="2304" y="2228"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="client_Commands.Client_newScoreCommand" project="ESIEATetris_4A" 
+    file="/ESIEATetris_4A/src/client_Commands/Client_newScoreCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="179" x="1738" y="-51"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="tetriminos.O_Square_Polyomino" project="ESIEATetris_4A" 
+    file="/ESIEATetris_4A/src/tetriminos/O_Square_Polyomino.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="204" x="2548" y="2228"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="server_Commands.Server_printScoreCommand" project="ESIEATetris_4A" 
+    file="/ESIEATetris_4A/src/server_Commands/Server_printScoreCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="261" x="690" y="1374"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="tetris_Client.Client_from_Server" project="ESIEATetris_4A" 
+    file="/ESIEATetris_4A/src/tetris_Client/Client_from_Server.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="423" width="435" x="1957" y="-51"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="tetris_GUI.NextStoneLabel" project="ESIEATetris_4A" 
+    file="/ESIEATetris_4A/src/tetris_GUI/NextStoneLabel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="178" x="1575" y="1374"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="27" language="java" name="server_Commands" project="ESIEATetris_4A" 
+    file="/ESIEATetris_4A/src/server_Commands" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="133" x="732" y="-51"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="28" language="java" name="tetriminos.All_Tetriminos_ColorBlock" project="ESIEATetris_4A" 
+    file="/ESIEATetris_4A/src/tetriminos/All_Tetriminos_ColorBlock.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="228" x="816" y="2228"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="29" language="java" name="client_Commands" project="ESIEATetris_4A" 
+    file="/ESIEATetris_4A/src/client_Commands" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="50" width="127" x="905" y="-51"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="30" language="java" name="server_Commands.Server_newStonesCommand" project="ESIEATetris_4A" 
+    file="/ESIEATetris_4A/src/server_Commands/Server_newStonesCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="352" x="991" y="1374"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="tetris_GUI.ServerSide_GUI" project="ESIEATetris_4A" 
+    file="/ESIEATetris_4A/src/tetris_GUI/ServerSide_GUI.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="423" width="194" x="1072" y="-51"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="server_Commands.Server_fallCommand" project="ESIEATetris_4A" 
+    file="/ESIEATetris_4A/src/server_Commands/Server_fallCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="189" x="461" y="1374"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="tetris_Server.Tetris_Server" project="ESIEATetris_4A" 
+    file="/ESIEATetris_4A/src/tetris_Server/Tetris_Server.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="206" x="1383" y="1037"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="34">    
+    <bendpoint x="2008" y="412"/>    
+    <bendpoint x="2008" y="1037"/>    
+    <bendpoint x="2008" y="1374"/>    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="35" name="nextStone"/>      
+      <multiplicity id="36" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="37">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <association id="38">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="39" name="gui"/>      
+      <multiplicity id="40" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="41">    
+    <end type="SOURCE" refId="30" navigable="false">      
+      <attribute id="42" name="stones"/>      
+      <multiplicity id="43" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="44">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="45" name="ticker"/>      
+      <multiplicity id="46" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="47">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="20"/>  
+  </generalization>  
+  <generalization id="48">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="20"/>  
+  </generalization>  
+  <association id="49">    
+    <bendpoint x="648" y="1783"/>    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="50" name="mat"/>      
+      <multiplicity id="51" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="52">    
+    <bendpoint x="1320" y="1037"/>    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="53" name="commonThings"/>      
+      <multiplicity id="54" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="55">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="56" name="input"/>      
+      <multiplicity id="57" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="58">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="59" name="nextStoneShowLabel"/>      
+      <multiplicity id="60" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="61">    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="62" name="commonThings"/>      
+      <multiplicity id="63" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="64">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="65" name="stones"/>      
+      <multiplicity id="66" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="67">    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="68" name="fredi"/>      
+      <multiplicity id="69" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="70">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="20"/>  
+  </generalization>  
+  <association id="71">    
+    <bendpoint x="1885" y="412"/>    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="72" name="tetrisPanel"/>      
+      <multiplicity id="73" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="74">    
+    <bendpoint x="1640" y="1037"/>    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="75" name="nextStoneShowLabel"/>      
+      <multiplicity id="76" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="77">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="20"/>  
+  </generalization>  
+  <association id="78">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="79" name="tetrisPanel"/>      
+      <multiplicity id="80" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="81">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="20"/>  
+  </generalization>  
+  <association id="82">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="83" name="mat"/>      
+      <multiplicity id="84" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="85">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="20"/>  
+  </generalization>  
+  <association id="86">    
+    <bendpoint x="1966" y="412"/>    
+    <bendpoint x="1966" y="1037"/>    
+    <bendpoint x="1966" y="1374"/>    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="87" name="stoneList"/>      
+      <multiplicity id="88" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="89">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="90" name="commonThings"/>      
+      <multiplicity id="91" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="92">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="18"/>  
+  </realization>  
+  <realization id="93">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <association id="94">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="95" name="stone"/>      
+      <multiplicity id="96" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="97">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <association id="98">    
+    <bendpoint x="1987" y="412"/>    
+    <bendpoint x="1987" y="1037"/>    
+    <bendpoint x="1987" y="1374"/>    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="99" name="actualStone"/>      
+      <multiplicity id="100" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="101">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="18"/>  
+  </realization>  
+  <association id="102">    
+    <bendpoint x="1783" y="1374"/>    
+    <bendpoint x="1783" y="1783"/>    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="103" name="tetMat"/>      
+      <multiplicity id="104" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="105">    
+    <bendpoint x="1804" y="1374"/>    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="106" name="stone"/>      
+      <multiplicity id="107" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="108">    
+    <bendpoint x="1825" y="1374"/>    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="109" name="tetrisPanel"/>      
+      <multiplicity id="110" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="111">    
+    <bendpoint x="1619" y="412"/>    
+    <bendpoint x="1619" y="1037"/>    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="112" name="nextStoneShowLabel"/>      
+      <multiplicity id="113" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="114">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="18"/>  
+  </realization>  
+  <generalization id="115">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="20"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

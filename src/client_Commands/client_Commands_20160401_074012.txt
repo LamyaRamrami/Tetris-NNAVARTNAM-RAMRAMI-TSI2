@@ -1,0 +1,3 @@
+WARNING - 07:40:12: First conversion pass
+ERROR - 07:40:12: org.eclipse.emf.ecore.xmi.PackageNotFoundException: Package with uri 'null' not found. (file:///RemoteSystemsTempFiles/.project, 2, 21)
+ERROR - 07:40:12: org.eclipse.emf.ecore.xmi.PackageNotFoundException: Package with uri 'null' not found. (file:///RemoteSystemsTempFiles/.project, 2, 21)

@@ -1,0 +1,14 @@
+WARNING - 07:39:15: First conversion pass
+ERROR - 07:39:15: java.net.MalformedURLException: unknown protocol: pathmap
+WARNING - 07:39:50: Convert client_Commands
+WARNING - 07:39:50: First conversion pass
+ERROR - 07:39:50: org.eclipse.emf.ecore.xmi.PackageNotFoundException: Package with uri 'null' not found. (file:///RemoteSystemsTempFiles/.project, 2, 21)
+ERROR - 07:39:50: org.eclipse.emf.ecore.xmi.PackageNotFoundException: Package with uri 'null' not found. (file:///RemoteSystemsTempFiles/.project, 2, 21)
+WARNING - 07:40:02: Convert client_Commands
+WARNING - 07:40:02: First conversion pass
+ERROR - 07:40:02: org.eclipse.emf.ecore.xmi.PackageNotFoundException: Package with uri 'null' not found. (file:///RemoteSystemsTempFiles/.project, 2, 21)
+ERROR - 07:40:03: org.eclipse.emf.ecore.xmi.PackageNotFoundException: Package with uri 'null' not found. (file:///RemoteSystemsTempFiles/.project, 2, 21)
+WARNING - 07:40:12: Convert client_Commands
+WARNING - 07:40:12: First conversion pass
+ERROR - 07:40:12: org.eclipse.emf.ecore.xmi.PackageNotFoundException: Package with uri 'null' not found. (file:///RemoteSystemsTempFiles/.project, 2, 21)
+ERROR - 07:40:12: org.eclipse.emf.ecore.xmi.PackageNotFoundException: Package with uri 'null' not found. (file:///RemoteSystemsTempFiles/.project, 2, 21)
